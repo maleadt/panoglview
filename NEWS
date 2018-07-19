@@ -1,0 +1,10 @@
+Version 0.2.2
+=============
+Support wxWidgets 2.8
+Added support for partial images. Dimensions are defined in a project file (Juergen Diez)
+
+Version 0.2.1
+=============
+fixed compilation with wxWidgets 2.6
+
+No News
