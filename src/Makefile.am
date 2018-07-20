@@ -4,7 +4,7 @@ pkglibdir = $(PLUGIN_DIR)
 
 panoglview_SOURCES = panoapp.cpp panoframe.cpp panointeractivecanvas.cpp panocanvas.cpp boundaries.cpp
 panoglview_CXXFLAGS = $(WX_CXXFLAGS)
-panoglview_LDADD = $(WX_LIBS) $(WX_GL_LIBS)
+panoglview_LDADD = $(WX_LIBS) $(WX_GL_LIBS) -lGL -lGLU
 
 noinst_HEADERS = panoapp.h panocanvas.h panoframe.h panoglplugin.h panopluginframe.h panointeractivecanvas.h boundaries.h
 
